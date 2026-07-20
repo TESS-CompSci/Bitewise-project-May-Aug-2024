@@ -1,4 +1,4 @@
-# Bitewise-group-project-May-Aug-2024
+# Bitewise-group-project-May-Aug-2025
 Bitewise project
 bitewisesu.netlify.app - final product
 BiteWise – Your Mood, Your Food 
