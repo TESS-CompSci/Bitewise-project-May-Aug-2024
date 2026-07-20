@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiteWise – Spots Menu</title>
+    <link rel="stylesheet" href="assets/css/food-spots.css" />
+    <script defer src="assets/js/food-spots.js"></script>
+  </head>
+  <body>
+    <div class="page-bg">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="INDEXWEB.HTML" class="logo">
+            <img src="assets/images/logo.svg" alt="Logo" class="logo-img" />
+          </a>
+
+          <!-- Hamburger Icon -->
+          <button class="hamburger" id="hamburger">☰</button>
+
+          <!-- Dropdown Menu -->
+          <ul class="nav-links" id="navLinks">
+            <li><a href="INDEXWEB.HTML">Home</a></li>
+            <li><a href="ABOUTWEB.HTML">About</a></li>
+            <li><a href="SPOTSWEB.HTML">Spots</a></li>
+            <li><a href="CONTACTWEB.HTML">Contacts</a></li>
+            <li><a href="LOGINWEB.HTML">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Main Content -->
+      <main class="container">
+        <section class="mood-section">
+          <h2 id="moodTitle">Let your cravings match your feelings</h2>
+          <p id="moodDescription">
+            Choose a mood to find the perfect food spot for you!
+          </p>
+          <div class="mood-buttons">
+            <button class="mood-btn" data-mood="sad">😢 Sad</button>
+            <button class="mood-btn" data-mood="happy">😁 Happy</button>
+            <button class="mood-btn" data-mood="angry">😡 Angry</button>
+            <button class="mood-btn" data-mood="stressed">😰 Stressed</button>
+            <button class="mood-btn" data-mood="bored">🥱 Bored</button>
+          </div>
+          
+          <!-- Mood Message Appears Here -->
+          <p id="moodMessage" class="mood-message"></p>
+
+          <button id="resetBtn" class="reset-btn">🔄️️Show All Spots</button>
+        </section>
+
+        <section class="results-section">
+          <h3 id="resultsTitle">All Food Spots</h3>
+          <div id="filteredResults" class="spots-grid">
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; Made by foodies @ Sunway University ❤️ | All Rights Reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>
