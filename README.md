@@ -14,3 +14,11 @@ Features
 Mood-based food recommendations.
 Multi-page layout: Home, About, Spots, Contact, Login.
 Interactive elements: smooth scrolling, hover effects, and responsive hamburger menu.
+
+Contributions: 
+•	Co-developed a live-hosted, multi-page web application using a collaborative development workflow.
+•	Designed and developed interactive Sign-Up and Contact modules, ensuring high responsiveness and cross-device usability.
+•	 Programmed input-handling logic to validate user data (names, emails, contact numbers) and seamlessly redirect users to a confirmation page upon correct formatting.
+•	Optimized user onboarding flows by implementing real-time data validation, reducing potential form submission errors prior to backend database integration.
+
+
